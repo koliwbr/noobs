@@ -2,7 +2,7 @@
 # Skrypt instaluje powłokę ZSH, dodatek oh-my-zsh, paczkę dodatkowych pluginów i aktywuje te rozszerzenia które mogą ułatwić pracę początkującycm
 # Autor: Jakub 'unknow' Mrugalski
 
-sudo apt update && sudo apt install zsh git
+sudo apt update && sudo apt install zsh git -y
 
 # instalacja oh-my-zsh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O- | sh
